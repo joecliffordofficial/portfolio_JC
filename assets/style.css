@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    width: 100%;
   }
   
   body {
@@ -13,7 +14,13 @@
     background: #13293d;
     color: #fff;
     border-radius: 10px 10px 0 0;
-    font-size: xx-large;
+    font-size: x-large;
+  }
+
+  header .background {
+    position: relative;
+    width: 100px;
+    height: 200px;
   }
   
   nav {
@@ -40,16 +47,17 @@
   
   aside {
     flex: 1;
-    background-color: #b9c6ae;
+    background-color: #13293d;
     padding: 80px;
     text-align: center;
+    color: white;
   }
   
   
   footer {
     padding: 20px;
     text-align: center;
-    background: #13293d;
+    background: #003a92;
     color: #fff;
   }
   
