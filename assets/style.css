@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
     width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
   }
   
   body {
@@ -9,12 +12,16 @@
   }
   
   header {
-    padding: 40px;
+    padding: 60px;
     text-align: center;
     background: #13293d;
     color: #fff;
-    border-radius: 10px 10px 0 0;
+    border-radius: 0 0 0 0;
     font-size: x-large;
+  }
+
+  .boxHeader {
+    border-radius: 10px 10px 0 0;
   }
 
   header .background {
@@ -22,22 +29,25 @@
     width: 100px;
     height: 200px;
   }
-  
+
+
   nav {
     display: flex;
-    background-color: #003a92;
-    justify-content: end;
+    min-height: 30px;
+    font-size: 22px;
+    text-align: center;
   }
   
-  nav a {
+  nav ul li a {
     color: #fff;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
   }
 
-  nav a:hover {
+  a:hover {
       color: #5c98cf;
+      background-color: transparent;
   }
   
   main {
@@ -71,12 +81,15 @@
   }
 
   .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
     flex: 0 0 400px;
-    height: fit-content;
+    min-height: 50%;
   }
   
   .card header {
@@ -85,6 +98,8 @@
   
   .card p {
     text-align: center;
+    padding: inherit;
+    font-size: initial;
   }
   
   .card img {

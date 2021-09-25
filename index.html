@@ -10,62 +10,86 @@
     <!-- Header -->
     <header>
       <h1>Joseph Clifford Portfolio</h1>
-      <div id="background">
-        <img src="assets/HeaderBackgroundPic.jpeg" alt="picture of the Grand Tetons in fog." />
-      </div>
-    </header>
-
+    
+      <br><br>
     <!-- Navbar -->
-    <nav>
-      <a href="#">About Me</a>
-      <a href="#">Education</a>
-      <a href="#">Work Experience</a>
-      <a href="#">Library of Work</a>
-      <a href="#">Contact Me</a>
-    </nav>
+      <nav>
+        <ul>
+         <li>
+          <a href="#About Me">About Me</a>
+          </li>
+         <li>
+          <a href="#Education">Education</a>
+          </li>
+         <li>  
+          <a href="#Work Experience">Work Experience</a>
+          </li>
+         <li>
+          <a href="#Library">Library of Work</a>
+          </li>
+         <li>
+            <a href="#Contact">Contact Me</a>
+          </li>
+        </ul>  
+       </nav>
+    </header>   
 
     <!-- Body -->
     <main>
-      <!-- Sidebar -->
-      <aside>
-        <h2>Welcome to my Portfolio!</h2>
-        <p>The navbar and this sidebar will be stacked on top of each other!</p>
-        <p>
-          And the product cards will wrap around as the screen gets smaller.
-        </p>
-      </aside>
-      <!-- Images of Work -->
-      <div class="products">
-        <section class="card">
-          <header>About Me</header>
+    <div class="products">
+        <section id="About Me" class="card">
+          <header class="boxHeader">About Me</header>
           <img src="./assets/AboutMePic.jpeg" alt="Picture of hiker sitting on peak" />
+          <p>I'm originally from the east coast and I've begun my career in the tech industry! I currently work at Apple University Village and I'm slowly trying to work my way into corporate. Check out some of my work here on this site!</p>
         </section>
 
-        <section class="card">
-            <header>Library of Work</header>
+        <section id="Library" class="card">
+            <header class="boxHeader">Library of Work</header>
             <img
               src="./assets/WorkLibrary.jpeg" alt="Close up image of fire with a blurred background" />
+              <p>
+              <a href="https://joecliffordofficial.github.io/homework-wk-1/#social-media-marketing">Visit my first coding work!</a></p>
+            </ul>  
           </section>
 
-        <section class="card">
-          <header>Education</header>
+        <section id="Education" class="card">
+          <header class="boxHeader">Education</header>
           <img src="./assets/EducationPic.jpeg" alt="Building with garden and a stone retaining wall saying University of New Hampshire" />
+            <p>
+              <a href="https://www.greatbay.edu/">Great Bay Community College</a></p>
+            <p>
+              <a href="https://www.unh.edu/">University of New Hampshire</a></p>
+            <p>
+              <a href="https://bootcamp.uw.edu/coding/landing/?s=Google-Brand&msg_cv_scta=4&msg_cv_stbn=1&msg_cv_fcta=1&pkw=uw%20coding%20bootcamp&pcrid=463279349719&pmt=e&utm_source=google&utm_medium=cpc&utm_campaign=GGL%7CUNIVERSITY-OF-WASHINGTON%7CSEM%7CCODING%7C-%7COFL%7CTIER-1%7CALL%7CBRD%7CEXACT%7CCore%7CBootcamp&utm_term=uw%20coding%20bootcamp&s=google&k=uw%20coding%20bootcamp&utm_adgroupid=112635573270&utm_locationphysicalms=9033311&utm_matchtype=e&utm_network=g&utm_device=c&utm_content=463279349719&utm_placement=&gclid=Cj0KCQjwkbuKBhDRARIsAALysV6Xlnh9uwAwnyPGnFIXyDsNY-c5qJR-woqMsn5srZTZdLVymWWzwTMaAnN7EALw_wcB&gclsrc=aw.ds">University of Washington Boot Camp</a></p>
         </section>
         
-        <section class="card">
-          <header>Work Experience</header>
+        <section id="Work Experience" class="card">
+          <header class="boxHeader">Work Experience</header>
           <img
             src="./assets/R072Pic.jpeg" alt="Image of the Apple Store at University Village at dusk"/>
+            <p>Apple Univerisity Village</p>
+            <p>TD Bank, N.A.</p>
+            <p>Hannaford Bros. Co., LLC</p>
         </section>
-       
+
+        <section id="Contact" class="card">
+          <header class="boxHeader">Contact Me</header>
+          <img src="./assets/ContactMePic.jpeg" alt="Image of an email icon."/>
+          <p><a href="malito:joecliffordofficial@gmail.com">Email</a></p>
+          <p><a href="https://www.linkedin.com/in/joe-clifford">LinkedIn</a></p>
+          <p><a href="https://www.instagram.com/cliff_xciv/">Instagram</a></p>
+        </section>
+
+        <section id="More Coming!" class="card">
+          <header class="boxHeader">More to Come!</header>
+          <img src="./assets/More-to-Come.jpeg" alt="Text saying 'Dont worry, there's more to come... these things take time.'"/>
+          <p>Hang in there, I got more coming your way!</p>
+        </section>
+        
       </div>
     </main>
 
-    <!-- Footer -->
-    <footer>
-      <h3>
-        JC Portfolio 
-      </h3>
-    </footer>
+
+
   </body>
 </html>
