@@ -8,3 +8,5 @@ Once I added in all these elements I worked on constructing my layout and fittin
 
 Heres a few screenshots of the page I developed and the link as well!
 
+<img src="assets/ScreenShot1.png">
+<img src="assets/ScreenShot2.png">
