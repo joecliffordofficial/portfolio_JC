@@ -27,6 +27,6 @@ With that said, please take a look and what I've cooked up so far!
 
 [Repository](https://github.com/joecliffordofficial/portfolio_jc)
 
-<img src="assets/Images/screenShot1.png">
-<img src="assets/Images/screenShot2.png">
+<img src="./assets/Images/screenShot1.png">
+<img src="./assets/Images/screenShot2.png">
 
