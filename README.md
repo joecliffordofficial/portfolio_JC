@@ -23,10 +23,10 @@ With that said, please take a look and what I've cooked up so far!
 
 # Links & Images
 
-[JC Portfolio](https://joecliffordofficial.github.io/portfolio_jc/)
+[Portfolio](https://joecliffordofficial.github.io/portfolio_jc/)
 
 [Repository](https://github.com/joecliffordofficial/portfolio_jc)
 
-<img src="./assets/Images/ScreenShot1.png">
-<img src="./assets/Images/ScreenShot2.png">
+<img src="./assets/Images/screenShot1.png">
+<img src="./assets/Images/screenShot2.png">
 
